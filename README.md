@@ -50,4 +50,4 @@ We welcome contributions from the community! If you would like to contribute to 
 
 ## Screenshot
 
-![Home page](image-1.png)
+- ![Home page](image-1.png)
