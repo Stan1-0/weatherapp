@@ -8,10 +8,16 @@ Welcome to my Django Weather App! This web application allows users to check the
 - User-Friendly Interface: The interface is intuitive and easy to use, making it accessible to users of all technical levels.
 
  ## Installation
-- Clone the repository: git clone https://github.com/Stan1-0/weatherapp.git
-- Navigate to the project directory: cd weatherapp
-- Install dependencies: pip install -r requirements.txt
-- Run the Django development server: python manage.py runserver
+ 1. Clone this repository to your local machine:
+`git clone https://github.com/Stan1-0/weatherapp.git`
+2. Navigate into the project directory:
+`cd weatherapp`
+3. Install the required dependencies:
+`pip install -r requirements.txt`
+4. Run the Django development server:
+`python manage.py runserver`
+
+Open your web browser and navigate to `http://127.0.0.1:8000/` to access the application.
 
 ## Usage
 - Enter the name of the location for which you want to check the weather in the provided input field.
@@ -27,9 +33,9 @@ HTML/CSS: For front-end design and structure.
 We welcome contributions from the community! If you would like to contribute to the project, please follow these steps:
 
 - Fork the repository.
-- Create a new branch (git checkout -b feature/improvement)
-- Make your changes and commit them (git commit -am 'Add new feature')
-- Push to the branch (git push origin feature/improvement)
+- Create a new branch (`git checkout -b feature/improvement`)
+- Make your changes and commit them (`git commit -am 'Add new feature'`)
+- Push to the branch (`git push origin feature/improvement`)
 - Create a new Pull Request.
 
 ## Acknowledgements
