@@ -15,8 +15,7 @@ def index(request):
             "Coordinates": str(json_data['coord']['lon'])+ '' + str(json_data['coord']['lat']),
             "Pressure": str(json_data['main']['pressure'])+'hpa',
             "Humidity": str(json_data['main']['humidity'])+'%',
-            
-            
+            "wind_speed": str(json_data['wind']['speed'])+'m/s',
             }
     else:
         data = {}
