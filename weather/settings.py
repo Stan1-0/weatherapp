@@ -10,6 +10,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
+import django_heroku
+import dj_database_url
+
 from pathlib import Path
 import os
 
@@ -26,7 +29,7 @@ SECRET_KEY = 'django-insecure-of)kaaxeki%)&-j0&vzsg4)qt&7%&)-76*z*@=kxh=hp@gk12!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -124,3 +127,5 @@ STATICFILES_URL = (os.path.join(BASE_DIR, 'static'),)
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+django_heroku.settings(locals())
