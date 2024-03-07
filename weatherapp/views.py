@@ -18,5 +18,6 @@ def index(request):
             "wind_speed": str(json_data['wind']['speed'])+'m/s',
             }
     else:
+        location = ''
         data = {}
-    return render(request, 'index.html', data )
+    return render(request, 'index.html', {'location': location, 'data': data} )
