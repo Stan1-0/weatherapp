@@ -1,6 +1,6 @@
 # Django weather app
 
-Welcome to my Django Weather App! This web application allows users to check the current weather conditions for any location worldwide
+Welcome to my Django Weather App! This web application allows users to check the current weather conditions for any location worldwide.
 
 ## Features
 
