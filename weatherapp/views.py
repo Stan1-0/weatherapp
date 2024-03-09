@@ -10,7 +10,8 @@ def index(request):
         json_data = json.loads(res) 
         data = {
             "Country_code": str(json_data['sys']['country']),
-            "Temperature": str(float(json_data['main']['temp']))+'k',
+            "Temperature":  "{:.2f}°C".format(str(float(json_data['main']['temp']) - 273.15)),
+            
             "Description": json_data['weather'][0]['description'],
             "Coordinates": str(json_data['coord']['lon'])+ '' + str(json_data['coord']['lat']),
             "Pressure": str(json_data['main']['pressure'])+'hpa',
