@@ -22,15 +22,18 @@
       </form>
     </div>
     <div class="container2">
+      {% if data.Country_code %}
       <div id="weather-info">
-        <h2 id="city-name">Country code: {{Country_code}}</h2>
-        <p id="city-name">Coordinates: {{Coordinates}}</p>
-        <p id="temperature">Temperature: {{Temperature}}</p>
-        <p id="temperature">Description: {{Description}}</p>
-        <p id="pressure">Pressure: {{Pressure}}</p>
-        <p id="humidity">Humidity: {{Humidity}}</p>
-        <p id="humidity">Wind speed: {{wind_speed}}</p>
+        <h1>{{location}}</h1>
+        <h2 id="city-name">Country code: {{data.Country_code}}</h2>
+        <p id="city-name">Coordinates: {{data.Coordinates}}</p>
+        <p id="temperature">Temperature: {{data.Temperature}}</p>
+        <p id="temperature">Description: {{data.Description}}</p>
+        <p id="pressure">Pressure: {{data.Pressure}}</p>
+        <p id="humidity">Humidity: {{data.Humidity}}</p>
+        <p id="humidity">Wind speed: {{data.wind_speed}}</p>
       </div>
+      {% endif %}
     </div>
   </body>
 </html>
