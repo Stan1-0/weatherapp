@@ -39,9 +39,9 @@ HTML/CSS: For front-end design and structure.
 We welcome contributions from the community! If you would like to contribute to the project, please follow these steps:
 
 - Fork the repository.
-- Create a new branch (`git checkout -b feature/improvement`)
-- Make your changes and commit them (`git commit -am 'Add new feature'`)
-- Push to the branch (`git push origin feature/improvement`)
+- Create a new branch (`git checkout -b feature/improvement`).
+- Make your changes and commit them (`git commit -am 'Add new feature'`).
+- Push to the branch (`git push origin feature/improvement`).
 - Create a new Pull Request.
 
 ## Acknowledgements
