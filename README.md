@@ -36,7 +36,7 @@ HTML/CSS: For front-end design and structure.
 
 ## Contributing
 
-We welcome contributions from the community! If you would like to contribute to the project, please follow these steps:
+We welcome contributions from the community! If you would like to contribute to the project please follow these steps:
 
 - Fork the repository.
 - Create a new branch (`git checkout -b feature/improvement`).
